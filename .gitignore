@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+
+# next.js build output
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# test output
+/coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# environment files: only the documented template is committed
+.env
+.env.*
+!.env.example
+
+# local SQLite databases (users, sessions, drafts, submissions)
+/.data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# keys and logs
+*.pem
+*.key
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
